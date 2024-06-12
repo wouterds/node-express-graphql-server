@@ -3,7 +3,11 @@ enum ModelType {
   FieldServiceRouting
 }
 
+input RunsFilter {
+  type: ModelType
+}
+
 type Query {
-  runs: [Run!]!
+  runs(filter: RunsFilter): [Run!]!
   run(id: String!, type: ModelType!): Run
 }
