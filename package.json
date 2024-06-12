@@ -11,7 +11,8 @@
     "build": "tsc --outDir ./build --noEmit false"
   },
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "graphql-http": "^1.22.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
