@@ -1,0 +1,152 @@
+[
+  {
+    "name": "LARGE",
+    "tenantId": "dc6f4fa5-5f53-4f00-abac-464a6fca24d7",
+    "model": {
+      "version": "v1",
+      "name": "employee-scheduling"
+    },
+    "score": {
+      "soft": 12035,
+      "medium": 0,
+      "hard": 0
+    },
+    "status": "SOLVING_COMPLETED",
+    "solvingDuration": 600,
+    "scoreCalculation": {
+      "count": 3211757,
+      "speed": 5352
+    },
+    "problemSizeStatistics": {
+      "entityCount": 378,
+      "approximateValueCount": 41,
+      "approximateProblemSizeLog": 609.6322978400599,
+      "variableCount": 378
+    },
+    "submitTime": "2024-06-10T14:35:16.582Z",
+    "startTime": "2024-06-10T14:35:24.196Z",
+    "completeTime": "2024-06-10T14:45:24.378Z",
+    "scheduleId": "bfde6f77-d936-490a-a839-1875ad782a09",
+    "unassignedShifts": 0
+  },
+  {
+    "name": "SMALL",
+    "tenantId": "dc6f4fa5-5f53-4f00-abac-464a6fca24d7",
+    "model": {
+      "version": "v1",
+      "name": "employee-scheduling"
+    },
+    "score": {
+      "soft": -1425,
+      "medium": 0,
+      "hard": 0
+    },
+    "status": "SOLVING_COMPLETED",
+    "solvingDuration": 516,
+    "scoreCalculation": {
+      "count": 3786408,
+      "speed": 7328
+    },
+    "problemSizeStatistics": {
+      "entityCount": 126,
+      "approximateValueCount": 21,
+      "approximateProblemSizeLog": 166.59963113647382,
+      "variableCount": 126
+    },
+    "submitTime": "2024-06-10T14:29:45.047Z",
+    "startTime": "2024-06-10T14:34:03.367Z",
+    "completeTime": "2024-06-10T14:42:40.203Z",
+    "scheduleId": "624e2c89-2cb0-45f1-93ed-cbb448c6b53a",
+    "unassignedShifts": 0
+  },
+  {
+    "name": "LARGE",
+    "tenantId": "dc6f4fa5-5f53-4f00-abac-464a6fca24d7",
+    "model": {
+      "version": "v1",
+      "name": "employee-scheduling"
+    },
+    "score": {
+      "soft": 12035,
+      "medium": 0,
+      "hard": 0
+    },
+    "status": "SOLVING_COMPLETED",
+    "solvingDuration": 600,
+    "scoreCalculation": {
+      "count": 3342925,
+      "speed": 5571
+    },
+    "problemSizeStatistics": {
+      "entityCount": 378,
+      "approximateValueCount": 41,
+      "approximateProblemSizeLog": 609.6322978400599,
+      "variableCount": 378
+    },
+    "submitTime": "2024-06-10T07:24:39.953Z",
+    "startTime": "2024-06-10T07:24:47.347Z",
+    "completeTime": "2024-06-10T07:34:47.561Z",
+    "scheduleId": "44774346-ce37-471f-931e-9f3ed7e8e372",
+    "unassignedShifts": 0
+  },
+  {
+    "name": "LARGE",
+    "tenantId": "dc6f4fa5-5f53-4f00-abac-464a6fca24d7",
+    "model": {
+      "version": "v1",
+      "name": "employee-scheduling"
+    },
+    "score": {
+      "soft": 12035,
+      "medium": 0,
+      "hard": 0
+    },
+    "status": "SOLVING_COMPLETED",
+    "solvingDuration": 600,
+    "scoreCalculation": {
+      "count": 3371842,
+      "speed": 5619
+    },
+    "problemSizeStatistics": {
+      "entityCount": 378,
+      "approximateValueCount": 41,
+      "approximateProblemSizeLog": 609.6322978400599,
+      "variableCount": 378
+    },
+    "submitTime": "2024-06-06T09:21:44.16Z",
+    "startTime": "2024-06-06T09:21:51.694Z",
+    "completeTime": "2024-06-06T09:31:51.87Z",
+    "scheduleId": "a484e003-600f-4a28-9b20-8e60d0427522",
+    "unassignedShifts": 0
+  },
+  {
+    "name": "Run-2024-05-31T10:00:51.589927428Z",
+    "tenantId": "dc6f4fa5-5f53-4f00-abac-464a6fca24d7",
+    "model": {
+      "version": "v1",
+      "name": "employee-scheduling"
+    },
+    "score": {
+      "soft": -4742,
+      "medium": -4800000,
+      "hard": 0
+    },
+    "status": "SOLVING_COMPLETED",
+    "solvingDuration": 1,
+    "scoreCalculation": {
+      "count": 5905,
+      "speed": 3326
+    },
+    "problemSizeStatistics": {
+      "entityCount": 126,
+      "approximateValueCount": 21,
+      "approximateProblemSizeLog": 166.59963113647382,
+      "variableCount": 126
+    },
+    "submitTime": "2024-05-31T10:00:51.589Z",
+    "startTime": "2024-05-31T10:00:58.892Z",
+    "completeTime": "2024-05-31T10:01:00.859Z",
+    "scheduleId": "4f85be2b-b2f3-4935-a095-5b4dcf55ba1b",
+    "unassignedShifts": 1
+  }
+]

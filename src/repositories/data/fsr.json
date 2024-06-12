@@ -1,0 +1,172 @@
+[
+  {
+    "name": "ATLANTA_LARGE",
+    "tenantId": "dc6f4fa5-5f53-4f00-abac-464a6fca24d7",
+    "model": {
+      "version": "v1",
+      "name": "field-service-routing"
+    },
+    "score": {
+      "soft": -4094084,
+      "medium": -288,
+      "hard": 0
+    },
+    "status": "SOLVING_COMPLETED",
+    "solvingDuration": 300,
+    "scoreCalculation": {
+      "count": 2712580,
+      "speed": 9041
+    },
+    "problemSizeStatistics": {
+      "entityCount": 140,
+      "approximateValueCount": 339,
+      "approximateProblemSizeLog": 836.4638773061415,
+      "variableCount": 140
+    },
+    "submitTime": "2024-06-12T12:50:05.712Z",
+    "startTime": "2024-06-12T12:50:11.567Z",
+    "completeTime": "2024-06-12T12:55:18.083Z",
+    "routePlanId": "e076574a-391a-493d-9807-88e3a0e69b6a",
+    "totalDrivingTime": null,
+    "totalTravelDistanceMeters": 5001618,
+    "totalUnassignedVisits": 73,
+    "travelDistanceBetweenVisitsMeters": 2057832,
+    "travelDistanceFromLastVisitToEndLocationMeters": 1579511
+  },
+  {
+    "name": "ATLANTA_HUGE",
+    "tenantId": "dc6f4fa5-5f53-4f00-abac-464a6fca24d7",
+    "model": {
+      "version": "v1",
+      "name": "field-service-routing"
+    },
+    "score": {
+      "soft": -4401612,
+      "medium": -934,
+      "hard": 0
+    },
+    "status": "SOLVING_COMPLETED",
+    "solvingDuration": 300,
+    "scoreCalculation": {
+      "count": 3083892,
+      "speed": 10279
+    },
+    "problemSizeStatistics": {
+      "entityCount": 126,
+      "approximateValueCount": 499,
+      "approximateProblemSizeLog": 1266.4129005642521,
+      "variableCount": 126
+    },
+    "submitTime": "2024-06-12T12:45:21.696Z",
+    "startTime": "2024-06-12T12:45:27.682Z",
+    "completeTime": "2024-06-12T12:50:39.239Z",
+    "routePlanId": "0a586efe-8bb9-4586-9766-37f66eab8a7b",
+    "totalDrivingTime": null,
+    "totalTravelDistanceMeters": 5602708,
+    "totalUnassignedVisits": 182,
+    "travelDistanceBetweenVisitsMeters": 2569799,
+    "travelDistanceFromLastVisitToEndLocationMeters": 1527966
+  },
+  {
+    "name": "ATLANTA_MEDIUM",
+    "tenantId": "dc6f4fa5-5f53-4f00-abac-464a6fca24d7",
+    "model": {
+      "version": "v1",
+      "name": "field-service-routing"
+    },
+    "score": {
+      "soft": -3761110,
+      "medium": -248,
+      "hard": 0
+    },
+    "status": "SOLVING_COMPLETED",
+    "solvingDuration": 300,
+    "scoreCalculation": {
+      "count": 3448699,
+      "speed": 11495
+    },
+    "problemSizeStatistics": {
+      "entityCount": 70,
+      "approximateValueCount": 165,
+      "approximateProblemSizeLog": 356.64811656425854,
+      "variableCount": 70
+    },
+    "submitTime": "2024-06-12T12:44:29.364Z",
+    "startTime": "2024-06-12T12:44:35.155Z",
+    "completeTime": "2024-06-12T12:49:37.642Z",
+    "routePlanId": "a19fbd5c-9b18-4215-ae55-02c89de4bb26",
+    "totalDrivingTime": null,
+    "totalTravelDistanceMeters": 1696786,
+    "totalUnassignedVisits": 48,
+    "travelDistanceBetweenVisitsMeters": 791224,
+    "travelDistanceFromLastVisitToEndLocationMeters": 504139
+  },
+  {
+    "name": "ATLANTA_SMALL",
+    "tenantId": "dc6f4fa5-5f53-4f00-abac-464a6fca24d7",
+    "model": {
+      "version": "v1",
+      "name": "field-service-routing"
+    },
+    "score": {
+      "soft": -6697383,
+      "medium": -338,
+      "hard": 0
+    },
+    "status": "SOLVING_COMPLETED",
+    "solvingDuration": 300,
+    "scoreCalculation": {
+      "count": 4355633,
+      "speed": 14518
+    },
+    "problemSizeStatistics": {
+      "entityCount": 18,
+      "approximateValueCount": 105,
+      "approximateProblemSizeLog": 189.27810408631535,
+      "variableCount": 18
+    },
+    "submitTime": "2024-06-12T12:39:24.747Z",
+    "startTime": "2024-06-12T12:39:32.534Z",
+    "completeTime": "2024-06-12T12:44:34.467Z",
+    "routePlanId": "f5d04501-f8c7-42f9-b86c-92b33efe5b7b",
+    "totalDrivingTime": null,
+    "totalTravelDistanceMeters": 894049,
+    "totalUnassignedVisits": 63,
+    "travelDistanceBetweenVisitsMeters": 394859,
+    "travelDistanceFromLastVisitToEndLocationMeters": 255729
+  },
+  {
+    "name": "ATLANTA_SMALL",
+    "tenantId": "dc6f4fa5-5f53-4f00-abac-464a6fca24d7",
+    "model": {
+      "version": "v1",
+      "name": "field-service-routing"
+    },
+    "score": {
+      "soft": -6697383,
+      "medium": -338,
+      "hard": 0
+    },
+    "status": "SOLVING_COMPLETED",
+    "solvingDuration": 300,
+    "scoreCalculation": {
+      "count": 4416117,
+      "speed": 14720
+    },
+    "problemSizeStatistics": {
+      "entityCount": 18,
+      "approximateValueCount": 105,
+      "approximateProblemSizeLog": 189.27810408631535,
+      "variableCount": 18
+    },
+    "submitTime": "2024-06-12T11:31:02.073Z",
+    "startTime": "2024-06-12T11:31:07.309Z",
+    "completeTime": "2024-06-12T11:36:08.727Z",
+    "routePlanId": "18bfc1a7-c513-45b5-a135-e1c05c6a9b23",
+    "totalDrivingTime": null,
+    "totalTravelDistanceMeters": 894049,
+    "totalUnassignedVisits": 63,
+    "travelDistanceBetweenVisitsMeters": 394859,
+    "travelDistanceFromLastVisitToEndLocationMeters": 255729
+  }
+]
