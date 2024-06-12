@@ -14,5 +14,6 @@ RUN npm install
 
 WORKDIR /code
 USER node
+EXPOSE 4000
 
 CMD dumb-init npm run dev

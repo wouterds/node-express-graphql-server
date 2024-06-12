@@ -16,7 +16,7 @@ app.get('/', (_req, res) => {
   res.end(ruruHTML({ endpoint: '/graphql' }));
 });
 
-app.listen(4000, () => {
+app.listen(4000, '0.0.0.0', () => {
   console.log(colors.green('GraphQL server running 🚀'));
   console.log(colors.yellow(' - http://localhost:4000'));
   console.log(colors.yellow(' - http://localhost:4000/graphql'));
