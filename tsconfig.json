@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "incremental": true,
+    "moduleResolution": "node",
+    "module": "CommonJS",
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"],
+    },
+  },
+  "include": [ "src/**/*.ts" ],
+  "exclude": [ "node_modules" ]
+}
