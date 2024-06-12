@@ -1,0 +1,20 @@
+type Model {
+  version: String!
+  name: String!
+}
+
+type Score {
+  soft: Int
+  medium: Int
+  hard: Int
+}
+
+type Run {
+  name: String!
+  model: Model!
+  score: Score!
+  status: String!
+  submitTime: String
+  startTime: String
+  completeTime: String
+}

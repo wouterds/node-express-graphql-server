@@ -1,5 +1,7 @@
 import { mergeSchemas } from '@graphql-tools/schema';
 
-import HelloWorld from './hello-world';
+import Runs from './runs';
 
-export const schema = mergeSchemas({ schemas: [HelloWorld] });
+export const schema = mergeSchemas({
+  schemas: [Runs],
+});
