@@ -6,9 +6,7 @@
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src",
     "lint:fix": "eslint --ext .js,.jsx,.ts,.tsx --fix ./src",
     "typecheck": "tsc",
-    "start": "node ./server.js",
-    "dev": "ts-node ./src/server.ts",
-    "build": "tsc --outDir ./build --noEmit false"
+    "dev": "ts-node ./src/server.ts"
   },
   "dependencies": {
     "@graphql-tools/graphql-file-loader": "^8.0.1",
