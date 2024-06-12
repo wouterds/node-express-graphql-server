@@ -1,15 +1,10 @@
 {
   "compilerOptions": {
-    "allowJs": true,
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "incremental": true,
-    "moduleResolution": "node",
-    "module": "CommonJS",
-    "lib": ["ESNext"],
-    "target": "ESNext",
+    "strict": true,
     "noEmit": true,
+    "target": "ESNext",
+    "module": "NodeNext",
+    "esModuleInterop": true,
     "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
