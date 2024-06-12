@@ -1,25 +1,20 @@
 import colors from 'colors';
 import express from 'express';
-import { buildSchema } from 'graphql';
-import { createHandler } from 'graphql-http';
+import { createHandler } from 'graphql-http/lib/use/express';
 import { ruruHTML } from 'ruru/server';
 
-const schema = buildSchema(`
-  type Query {
-    hello: String
-  }
-`);
+import { schema } from './graphql';
 
 const app = express();
+
+// api
+app.all('/graphql', createHandler({ schema }));
 
 // interface
 app.get('/', (_req, res) => {
   res.type('html');
   res.end(ruruHTML({ endpoint: '/graphql' }));
 });
-
-// api
-app.all('/graphql', createHandler({ schema }));
 
 app.listen(4000, () => {
   console.log(colors.green('GraphQL server running 🚀'));
