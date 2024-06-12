@@ -1,5 +1,5 @@
 {
-  "name": "@wouterds/graphql-example",
+  "name": "@wouterds/node-express-graphql-server",
   "version": "0.1.0",
   "private": true,
   "scripts": {
