@@ -9,7 +9,8 @@ type Score {
   hard: Int
 }
 
-type Run {
+interface Run {
+  id: String!
   name: String!
   model: Model!
   score: Score!
@@ -17,4 +18,34 @@ type Run {
   submitTime: String
   startTime: String
   completeTime: String
+}
+
+type EmployeeSchedulingRun implements Run {
+  id: String!
+  name: String!
+  model: Model!
+  score: Score!
+  status: String!
+  submitTime: String
+  startTime: String
+  completeTime: String
+
+  # model specific fields
+  scheduleId: String!
+  unassignedShifts: Int!
+}
+
+type RoutePlanRun implements Run {
+  id: String!
+  name: String!
+  model: Model!
+  score: Score!
+  status: String!
+  submitTime: String
+  startTime: String
+  completeTime: String
+
+  # model specific fields
+  routePlanId: String!
+  totalUnassignedVisits: Int!
 }
