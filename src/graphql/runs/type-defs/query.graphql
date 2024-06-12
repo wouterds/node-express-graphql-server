@@ -1,3 +1,9 @@
+enum ModelType {
+  EmployeeScheduling
+  FieldServiceRouting
+}
+
 type Query {
   runs: [Run!]!
+  run(id: String!, type: ModelType!): Run
 }

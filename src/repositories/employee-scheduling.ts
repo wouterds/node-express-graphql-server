@@ -8,4 +8,10 @@ export class EmployeeSchedulingRepository {
       ...item,
     }));
   }
+
+  public static getById(id: string) {
+    const items = EmployeeSchedulingRepository.getAll();
+
+    return items.find((item) => item.scheduleId === id);
+  }
 }

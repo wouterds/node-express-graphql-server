@@ -8,4 +8,10 @@ export class RoutePlanningRepository {
       ...item,
     }));
   }
+
+  public static getById(id: string) {
+    const items = RoutePlanningRepository.getAll();
+
+    return items.find((item) => item.routePlanId === id);
+  }
 }
